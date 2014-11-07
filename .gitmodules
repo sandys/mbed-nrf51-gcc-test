@@ -6,4 +6,4 @@
 	url = https://janekm@github.com/janekm/nRF51822.git
 [submodule "BLE_API"]
 	path = BLE_API
-	url = https://janekm@github.com/janekm/BLE-API.git
+	url = https://github.com/mbedmicro/BLE_API.git
