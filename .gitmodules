@@ -3,7 +3,7 @@
 	url = https://janekm@github.com/mbedmicro/mbed.git
 [submodule "nRF51822"]
 	path = nRF51822
-	url = https://janekm@github.com/janekm/nRF51822.git
+	url = https://github.com/mbedmicro/nRF51822.git 
 [submodule "BLE_API"]
 	path = BLE_API
 	url = https://github.com/mbedmicro/BLE_API.git
