@@ -66,6 +66,10 @@ else()
     message(FATAL_ERROR "failed to match against known toolchains")
 endif()
 
+if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
+    set(CMAKE_CXX_LINK_FLAGS "")
+endif()
+
 set(MAIN_TARGET        ${PROJECT_NAME}.elf)
 enable_language(ASM)
 
